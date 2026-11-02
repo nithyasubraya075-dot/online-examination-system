@@ -1,19 +1,2 @@
-# Java compiled files
-*.class
-
-# Maven build folder
-target/
-
-# IDE files
-.idea/
-.vscode/
-
-# Logs
-*.log
-
-# Environment variables
-.env
-
-# OS files
-.DS_Store
-Thumbs.db
+data/*.mv.db
+data/*.trace.db
