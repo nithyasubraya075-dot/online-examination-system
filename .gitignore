@@ -1,0 +1,12 @@
+target/
+backend/data/
+!.mvn/wrapper/maven-wrapper.jar
+.idea/
+.vscode/
+*.iml
+*.log
+.env
+.env.*
+!.env.example
+*.class
+Thumbs.db

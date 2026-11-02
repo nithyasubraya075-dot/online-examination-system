@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111a3b">
+  <meta name="description" content="SMARTEXAM — college examination and result management, every semester in one smart platform.">
+  <title>SMARTEXAM — Every Semester. Every Subject.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script defer src="https://unpkg.com/lucide@latest"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="/assets/app.js"></script>
+</head>
+<body>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <section id="public-page">
+    <header class="public-nav">
+      <a class="brand" href="/" aria-label="SMARTEXAM home"><span class="brand-mark"><i data-lucide="graduation-cap"></i></span><span>SMART<span>EXAM</span></span></a>
+      <nav class="public-links" aria-label="Main navigation"><a href="#features">Platform</a><a href="#about">About</a><a href="#stats">Impact</a></nav>
+      <div class="nav-actions"><button class="btn btn-quiet" data-action="open-login">Sign in</button><button class="btn btn-primary" data-action="open-register">Create account <i data-lucide="arrow-up-right"></i></button></div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse"></span> ENGINEERING EXAMINATIONS, REIMAGINED</div>
+          <h1>Every semester.<br>Every subject.<br><span>One smart platform.</span></h1>
+          <p>One calm, connected place to prepare for exams, manage assessments, and understand every result.</p>
+          <div class="hero-actions"><button class="btn btn-primary btn-lg" data-action="open-register">Get started <i data-lucide="arrow-right"></i></button><a class="text-link" href="#features">Explore the platform <i data-lucide="chevron-down"></i></a></div>
+          <div class="hero-proof"><div class="avatar-stack"><span>C</span><span>E</span><span>M</span><span>+</span></div><div><strong>Built for every branch</strong><small><b id="hero-branch-count">Engineering disciplines</b> · 8 semesters</small></div></div>
+        </div>
+        <div class="hero-art" aria-label="SMARTEXAM dashboard preview">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="preview-card">
+            <div class="preview-top"><div><span class="live-dot"></span> STUDENT OVERVIEW</div><i data-lucide="more-horizontal"></i></div>
+            <div class="preview-greeting">Good morning, Alex <span>✦</span></div><div class="preview-sub">Your semester, at a glance.</div>
+            <div class="preview-grid"><div class="mini-stat"><span>SUBJECTS</span><b>06</b><i data-lucide="book-open"></i></div><div class="mini-stat"><span>AVG. SCORE</span><b>86<span>%</span></b><i data-lucide="chart-no-axes-column-increasing"></i></div></div>
+            <div class="preview-exam"><div class="exam-icon"><i data-lucide="atom"></i></div><div><strong>Data Structures</strong><small>Internal Assessment · 45 min</small></div><span class="exam-tag">UP NEXT</span></div>
+            <div class="preview-progress"><span>Semester progress</span><b>72%</b><div class="progress-track"><span style="width:72%"></span></div></div>
+          </div>
+          <div class="float-card float-result"><span class="float-icon"><i data-lucide="badge-check"></i></span><div><b>Result published</b><small>Well done — you passed!</small></div></div>
+          <div class="float-card float-time"><i data-lucide="clock-3"></i><div><b>Exam day, simplified</b><small>Focused. Fair. On time.</small></div></div>
+        </div>
+      </section>
+      <section class="trust-strip"><span>ONE PLATFORM FOR YOUR ENTIRE EXAM JOURNEY</span><div><span><i data-lucide="scan-line"></i> Assessments</span><span><i data-lucide="book-check"></i> Academics</span><span><i data-lucide="chart-no-axes-combined"></i> Results</span><span><i data-lucide="shield-check"></i> Secure by design</span></div></section>
+      <section id="features" class="section features-section"><div class="section-heading"><span class="eyebrow">MADE FOR CAMPUS LIFE</span><h2>Less admin. More <span>achievement.</span></h2><p>Thoughtful tools for the people who teach, learn, and keep it all running.</p></div>
+        <div class="feature-grid"><article class="feature-card feature-large"><div class="feature-symbol purple"><i data-lucide="notebook-tabs"></i></div><span class="feature-kicker">FOR STUDENTS</span><h3>Your semester,<br>in sync.</h3><p>See relevant subjects, prepare for upcoming assessments, and follow your progress — all from one dashboard.</p><div class="feature-visual student-visual"><span class="visual-check"><i data-lucide="check"></i></span><div class="visual-line"><b>Signals & Systems</b><span>Available now</span></div><div class="visual-line"><b>Engineering Maths</b><span>Tomorrow · 10:00</span></div></div></article>
+          <article class="feature-card"><div class="feature-symbol blue"><i data-lucide="panels-top-left"></i></div><span class="feature-kicker">FOR TEACHERS</span><h3>Teach. Assess.<br>Understand.</h3><p>Build question banks, schedule assessments, and see class results without the spreadsheet shuffle.</p><div class="feature-decoration teacher-decoration"><i data-lucide="file-check-2"></i><i data-lucide="chart-no-axes-combined"></i><i data-lucide="users-round"></i></div></article>
+          <article class="feature-card"><div class="feature-symbol coral"><i data-lucide="settings-2"></i></div><span class="feature-kicker">FOR ADMIN</span><h3>Your institution,<br>well organised.</h3><p>Configure branches, semesters, subjects, and people with a clear view of your academic operations.</p><div class="branch-pills"><span>CSE</span><span>ECE</span><span>AIML</span><span>+4</span></div></article></div>
+      </section>
+      <section id="stats" class="stats-band"><div><span class="eyebrow">ACADEMICS, CONNECTED</span><h2>A clearer view<br>of campus learning.</h2></div><div class="stat-items"><div><b id="stat-branches">—</b><span>Branches</span></div><div><b id="stat-students">—</b><span>Registered students</span></div><div><b id="stat-subjects">—</b><span>Configured subjects</span></div><div><b id="stat-exams">—</b><span>Examinations</span></div></div></section>
+      <section id="about" class="about-section"><div class="about-icon"><i data-lucide="sparkles"></i></div><div><span class="eyebrow">THE SMARTEXAM PROMISE</span><h2>Good systems make room<br>for great learning.</h2><p>SMARTEXAM brings the engineering college examination lifecycle together — with role-based access, server-evaluated assessments, and results students can trust.</p></div><button class="btn btn-outline" data-action="open-register">Join SMARTEXAM <i data-lucide="arrow-right"></i></button></section>
+    </main>
+    <footer class="footer"><a class="brand" href="/"><span class="brand-mark"><i data-lucide="graduation-cap"></i></span><span>SMART<span>EXAM</span></span></a><span>Every Semester. Every Subject. One Smart Platform.</span><small>© 2026 SMARTEXAM · College demonstration platform</small></footer>
+  </section>
+
+  <div id="auth-layer" class="modal-layer" hidden>
+    <section class="auth-card" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+      <button class="icon-btn modal-close" data-action="close-auth" aria-label="Close"><i data-lucide="x"></i></button>
+      <a class="brand auth-brand" href="/"><span class="brand-mark"><i data-lucide="graduation-cap"></i></span><span>SMART<span>EXAM</span></span></a>
+      <div class="auth-heading"><span class="eyebrow">YOUR ACADEMIC HOME</span><h2 id="auth-title">Welcome back</h2><p id="auth-copy">Sign in to pick up where you left off.</p></div>
+      <div class="auth-tabs"><button class="auth-tab active" data-action="show-login">Sign in</button><button class="auth-tab" data-action="show-register">Create account</button></div>
+      <form id="login-form" class="form-stack">
+        <label>Email address<input name="email" type="email" autocomplete="username" placeholder="you@college.edu" required></label>
+        <label>Password<input name="password" type="password" autocomplete="current-password" placeholder="Your password" required></label>
+        <button class="btn btn-primary btn-block" type="submit">Sign in securely <i data-lucide="arrow-right"></i></button>
+      </form>
+      <form id="register-form" class="form-stack" hidden>
+        <div class="field-pair"><label>Full name<input name="fullName" autocomplete="name" required></label><label>USN / student ID<input name="usn" required></label></div>
+        <div class="field-pair"><label>Email<input name="email" type="email" autocomplete="email" required></label><label>Phone<input name="phone" type="tel" autocomplete="tel" required></label></div>
+        <div class="field-pair"><label>Branch<select name="branchId" id="register-branch" required></select></label><label>Semester<select name="semester" required><option value="">Select</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label></div>
+        <div class="field-pair"><label>Password<input name="password" type="password" minlength="8" autocomplete="new-password" required></label><label>Confirm password<input name="confirmPassword" type="password" minlength="8" autocomplete="new-password" required></label></div>
+        <button class="btn btn-primary btn-block" type="submit">Create student account <i data-lucide="arrow-right"></i></button>
+        <small class="form-note">Student accounts are created here. Teachers and administrators are provisioned by an administrator.</small>
+      </form>
+    </section>
+  </div>
+
+  <section id="app-page" class="app-page" hidden>
+    <aside class="sidebar">
+      <a class="brand" href="#" data-page="dashboard"><span class="brand-mark"><i data-lucide="graduation-cap"></i></span><span>SMART<span>EXAM</span></span></a>
+      <div class="side-label">WORKSPACE</div><nav id="side-navigation" class="side-navigation"></nav>
+      <div class="sidebar-bottom"><div class="support-card"><span class="support-icon"><i data-lucide="life-buoy"></i></span><b>Need a hand?</b><small>Your academic workspace is ready.</small></div><button class="side-link" data-action="logout"><i data-lucide="log-out"></i><span>Sign out</span></button></div>
+    </aside>
+    <main class="app-main">
+      <header class="app-topbar"><div class="mobile-brand"><span class="brand-mark"><i data-lucide="graduation-cap"></i></span> SMARTEXAM</div><div class="breadcrumbs"><span>Workspace</span><i data-lucide="chevron-right"></i><b id="page-title">Overview</b></div><div class="topbar-right"><span class="secure-label"><i data-lucide="shield-check"></i> Secure session</span><button class="profile-button" data-page="profile"><span id="avatar-initials">S</span><span><b id="profile-name">Student</b><small id="profile-role">STUDENT</small></span><i data-lucide="chevron-down"></i></button></div></header>
+      <div id="workspace" class="workspace"></div>
+      <footer class="app-footer">SMARTEXAM <span>·</span> Every Semester. Every Subject. One Smart Platform.</footer>
+    </main>
+  </section>
+</body>
+</html>
