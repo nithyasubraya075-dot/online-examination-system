@@ -1,2 +1,10 @@
-data/*.mv.db
-data/*.trace.db
+
+# Maven build files
+backend/target/
+
+# Local H2 database
+backend/data/*.mv.db
+backend/data/*.trace.db
+
+# Environment files
+.env
