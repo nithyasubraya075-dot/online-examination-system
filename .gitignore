@@ -1,12 +1,19 @@
+# Java compiled files
+*.class
+
+# Maven build folder
 target/
-backend/data/
-!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
 .idea/
 .vscode/
-*.iml
+
+# Logs
 *.log
+
+# Environment variables
 .env
-.env.*
-!.env.example
-*.class
+
+# OS files
+.DS_Store
 Thumbs.db
